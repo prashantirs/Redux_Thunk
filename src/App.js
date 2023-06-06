@@ -1,9 +1,20 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes , Route } from "react-router-dom";
+import Header from "./Components/Header";
+import ProductListing from "./Components/ProductListing";
+import { ProductDetails } from "./Components/ProductDetails";
+
 
 function App() {
   return (
    <>
-    <h1>Redux</h1>
+    <Router>
+      <Header/>
+      <Routes>
+        <Route path="/" exact element={<ProductListing/>}/>
+        <Route path="/about" element={<ProductDetails/>}/>
+      </Routes>
+    </Router>
    </>
 )}
 

@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main{
+  margin-top: 4rem !important;
+  margin-left: 8rem;
+}
+.inside-main{
+  margin-left: 7rem;
+}
+.each-card{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1.5rem !important;
+  margin-left: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.each-card:hover{
+ 
+}
+.content{
+  padding: 1rem;
+  text-decoration: none;
+  color: #000;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hoverImages {
+  margin:20px;
+  padding: 3px;
+  outline:2px solid #DDD;
+  border:#a1a1a1;
+  float:left;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.hoverImages:hover {
+	  cursor:pointer;
+    margin-top: 0.1px;
+}
+.price{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+.title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+.meta{
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #6f6d6d;
 }
